@@ -1,0 +1,160 @@
+*{
+  margin:0;
+  padding:0;
+
+  }
+
+
+/*contenedor Principal*/
+main{
+  width:900px;
+  height: 800px;
+  margin: 30px auto;
+  padding:20px;
+  border: #3ec25a 3px solid;
+  background-color: white;
+}
+/*Cabecera principal*/
+.cabecera{
+  height: 75px;
+  padding:10px;
+  background-color: beige;
+
+}
+nav{ 
+  height: 40px;
+  }
+.menu{
+  margin-left: 53%; /*alineacion izquierda al medio del contenedor nav*/  
+  margin-top: 0.5em;
+  
+  }
+.menu li{
+  display:inline; /*cambiar la presentacion de bloque por defecto a en linea*/   
+}
+/*propiedades del enlace (etiqueta a)*/
+.menu li a{  
+  font-size: 20px;
+  color: white;
+  padding: 7px;  
+  border-radius:20px 20px 20px 20px;
+  background-color: #20498F;
+  text-decoration: none;
+  text-transform: uppercase;
+  }
+
+.menu li a:hover{
+  background-color: white;
+  color: black;
+
+}
+.imagen{
+  width:100px;
+  float:left;
+  margin:5px 20px;
+}
+article{
+  height: 500px;
+  width: 49%;
+  float:left; 
+  background-color: white;
+}
+aside{
+  height: 500px; 
+  margin-left:51%;
+  background-color: white;
+
+  }
+footer{
+    height: 100px;
+    clear:both;
+  }
+footer div{
+    float: left;
+  }
+#iconos{
+    float: right;
+    margin-top: 2em;
+    margin-right: 0.5em;
+}
+
+
+
+h1 {
+
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  color: white;
+
+}
+
+p{
+  text-align: justify;
+}
+
+#htmlfondo{
+
+  background-color: #F2622E;
+
+}
+
+#phpfondo{
+
+  background-color: #4A548C;
+
+}
+
+#jsfondo{
+
+  background-color: #FFDA3E;
+
+}
+
+#cssfondo{
+
+  background-color: #085CA6;
+
+}
+
+footer{
+  background-color: rgb(250, 247, 235);
+
+}
+
+#azulito{
+  color: #085CA6;
+}
+
+#nameisil{
+  background-color: rgb(202, 207, 239);
+}
+
+h1{
+  font-family: "Mukta", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+p{
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" -3;
+}
+
+li{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+}
+
+body{
+  background-color: beige;
+}
+
+#iconos .fa-brands{
+  color: #20498F;
+  font-size: 35px;
+
+}
